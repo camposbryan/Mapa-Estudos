@@ -1,0 +1,44 @@
+{
+  "name": "studymap",
+  "version": "1.0.0",
+  "description": "Mapa de Estudos Inteligente - Aplicação web flexível para organizar conteúdos educacionais de qualquer série ou assunto",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "start:8080": "python -m http.server 8080",
+    "serve": "npx http-server -p 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/studymap.git"
+  },
+  "keywords": [
+    "estudos",
+    "educação",
+    "mapa-de-estudos",
+    "gerenciador-de-conteúdo",
+    "learning",
+    "progress-tracking",
+    "localStorage"
+  ],
+  "author": "You",
+  "license": "MIT",
+  "homepage": "https://github.com/seu-usuario/studymap#readme",
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not IE 11"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "projects": {
+    "description": "Não há dependências externas. Código 100% vanilla JS."
+  }
+}
